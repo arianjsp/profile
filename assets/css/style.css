@@ -27,9 +27,10 @@ main{
 	overflow: scroll;
 }
 .info{
-	margin: 10px 230px;
+	margin: 10px 150px;
 	line-height: 40px;
 	color: #120A2A;
+	text-align: center;
 }
 .work-info{
 	text-align: center;
@@ -39,14 +40,15 @@ main{
 	margin-bottom: 35px;
 }
 h1{
-	font-size: 1.2rem;
+	font-size: 2rem;
+}
+h2{
+	font-size: 2rem;
 }
 h3{
 	font-weight: lighter;
 }
-p{
-	font-size: 1.2rem;
-}
+
 ul{
 	list-style-type: none;
 	display: flex;
@@ -55,10 +57,12 @@ ul{
 }
 li{
 	margin-right: 10px;
-	font-size: 1rem;
 }
 .icons{
-	font-size: 1.5rem;
+	font-size: 50px;
+}
+.hashtag{
+	font-size: 30px;
 }
 a:link, a:visited {
 	text-decoration: none;
@@ -101,5 +105,14 @@ a:active {
 	}
 	ul{
 		margin: 10px 150px;
+	}
+	.icons{
+		font-size: 25px;
+	}
+	.hashtag{
+		font-size: 15px;
+	}
+	#info{
+		font-size: 1.2rem;
 	}
 }
